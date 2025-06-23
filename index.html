@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     integrity="sha512-DTOQO9RWCH3ppGqcWaEAIBIZOC6xxalwEsw9c2QQeAIftl+Vegovlneelc9QX4TctrWMn13TZye+giMw8e2twA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer">
+    crossorigin="anonymous" referrerpolicy="no-referrer"> -->
+    <link rel="stylesheet" href="fontawesome.all.min.css">
+    <script src="https://kit.fontawesome.com/yourkitid.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="utility.css">
     <title>VOYAGE</title>
 
 </head>
@@ -20,20 +23,57 @@
             <label class="logo">VOYAGE</label>
             <ul>
               <li>
-                <a href="" onclick="uncheckCheckbox()">EXPLORE</a>
+                <a href="#features" onclick="uncheckCheckbox()">EXPLORE</a>
               </li>
               <li>
-                <a href="" onclick="uncheckCheckbox()">EXPLORE</a>
+                <a href="#about" onclick="uncheckCheckbox()">ABOUT</a>
               </li>
               <li>
-                <a href="" onclick="uncheckCheckbox()">EXPLORE</a>
+                <a href="#pricing" onclick="uncheckCheckbox()">SERVICES</a>
               </li>
               <li>
-                <a href="" onclick="uncheckCheckbox()">EXPLORE</a>
+                <a href="contact" onclick="uncheckCheckbox()">CONTACT</a>
               </li>
             </ul>
         </nav>
+        <div class="headline">
+          <p class="description">DISCOVER THE WORLD WITH CONFIDENCE</p>
+          <h1 class="title">VOYAGE</h1>
+          <a href="#destinations">
+            <button class="callout">EXPLORE</button>
+          </a>
+          <div class="fa-solid fa-lg"><img class="invert img" src="img/arrowdown.svg" alt="down arrow"></div>
+        </div>
     </div>
+    <!-- features -->
+     <div class="features" id="features">
+      <h2>What Can You Expect</h2>
+      <hr class="small-divider">
+      <div class="boxes">
+        <div class="box">
+          <img  src="img/map icon.svg" alt="map book">
+          <h6>Tailored Experinces</h6>
+          <p>Our comitment to providing <br />
+            tailored experiences sets us apart.
+          </p>
+        </div>
+        <div class="box">
+          <img  src="img/map icon.svg" alt="map book">
+          <h6>Expert Guidence</h6>
+          <p>Our travel advisor have in-depth <br />
+            knowledge of top destinations.
+          </p>
+        </div>
+        <div class="box">
+          <img src="img/map icon.svg" alt="map book">
+          <h6>Exclusive Access</h6>
+          <p>Benifit from our partnerships with <br />
+           premium hotels, airlines, etc.
+          </p>
+        </div>
+      </div>
+      <hr class="divider">
+     </div>
     
 </body>
 </html>
